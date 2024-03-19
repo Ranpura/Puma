@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: didot;
+}
+.myVideo {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 90px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.6);
+	border-bottom: 1px solid #fff;
+}
+nav .logo{
+	padding: 22px 20px;
+	height: 80px;
+	float: left;
+	font-size: 45px;
+	font-weight: italic;
+	text-transform: uppercase;
+	color: #fff;
+	word-spacing: -20px;
+}
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li a{
+	line-height: 80px;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	background: rgba(0,0,0,0.7);
+	border-radius: 6px;
+}
+.sidebar{
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100vh;
+	width: 250px;
+	z-index: 999;
+	background-color: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(10px);
+	box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+}
+.sidebar li{
+	width: 100px;
+}
+.sidebar a{
+	width: 100px;
+}
